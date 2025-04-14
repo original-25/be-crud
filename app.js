@@ -18,7 +18,7 @@ module.exports = app;
 
 const mongoose = require("mongoose");
 dotenv.config();
-const queryString = process.env.MONGODB_URI || "mongodb+srv://dobalam:dobalam-it4409@lamdb-it4409.ybiwz.mongodb.net/College?retryWrites=true&w=majority&appName=lamdb-it4409";
+const queryString = process.env.MONGODB_URI ||"mongodb+srv://dobalam:dobalam-it4409@it4409-cluster.qopfxuo.mongodb.net/it4409-db?retryWrites=true&w=majority&appName=it4409-cluster";
 
 //configure mongoose
 mongoose.connect(queryString, {
